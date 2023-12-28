@@ -1,0 +1,22 @@
+.navbar-containe{
+    position: fixed;
+    height: 10%;
+    width: 15%;
+    border-radius: 40px;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    bottom: 10px;
+}
+.list-container{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 6px 20px;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+}

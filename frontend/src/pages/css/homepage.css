@@ -1,0 +1,21 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    width: 50%;
+    height: 100px;
+    font-size: 30px;
+
+}
+p{
+    margin:0 20px;
+}

@@ -1,0 +1,28 @@
+.form-container{
+    margin-left: 30%;
+    margin-top: 10%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    width: 40%;
+    padding: 50px;
+}
+input,textarea{
+    font-size: 18px;
+    border-radius: 6px;
+    line-height: 1.5;
+    padding: 5px 10px;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: 2px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    display: block;
+    height: 60px;
+    width: 90%;
+    margin:20px 0;
+}
+input:hover,textarea:hover {
+    border-color: #ccc;
+}
+input:focus,textarea:focus{
+    border-color: #9147ff;
+    background: #fff;
+}
